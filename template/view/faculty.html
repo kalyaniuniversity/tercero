@@ -1,0 +1,25 @@
+<section lyout="column" class="tr-non-selectable tr-no-focus" flex layout-fill>
+    <div layout="column" layout-align="center stretch" class="tr-home-section-four tr-padding-sides-20 tr-margin-vertical-60">
+        <div layout="row" layout-align="start center" class="tr-non-selectable tr-no-focus">
+            <span class="tr-text-lg tr-text-light tr-color-hue-5">System&#46;out&#46;println&#40;&#34;<span class="tr-text-xl tr-text-bold tr-color-hue-1 tr-font-abl tr-uppercase">Faculties</span>&#34;&#41;&#59;</span>
+        </div>
+        <div layout="column" layout-align="center center" class="tr-padding-vertical-20 tr-margin-vertical-60">
+            <div ng-repeat="faculty in faculties track by $index" layout="column" layout-align="center stretch" class="tr-faculty-container animated fadeInUp" md-whiteframe="{{faculty_container_witeframe}}" ng-class="" ng-init="faculty_container_witeframe = -1" ng-mouseenter="faculty_container_witeframe= 4" ng-mouseleave="faculty_container_witeframe = -1">
+                <div layout="row" layout-align="space-between center">
+                    <img ng-src="{{faculty.profile_picture}}" class="tr-faculty-profile-picture tr-radius-circle" md-whiteframe="1">
+                    <div layout="column" layout-align="center end" class="tr-padding-right-20">
+                        <span class="tr-text-md tr-text-light tr-font-abl tr-margin-bottom-5">{{faculty.name}}</span>
+                        <span class="tr-text-sm tr-text-bold tr-font-abl tr-line-height-2">{{faculty.designation}}</span>
+                        <span class="tr-text-sm tr-text-light tr-font-abl tr-line-height-2">{{faculty.degree}}</span>
+                        <span class="tr-text-sm tr-text-light tr-font-abl tr-line-height-2"><span class="tr-text-xs tr-text-bold tr-uppercase">specialization:&nbsp;</span>{{faculty.specialization}}</span>
+                        <span class="tr-text-sm tr-text-light tr-font-abl tr-line-height-2"><span class="tr-text-xs tr-text-light tr-color-hue-1">mailto:&nbsp;</span>{{faculty.email}}</span>
+                        <span class="tr-text-sm tr-text-light tr-font-abl tr-line-height-2" ng-if="faculty.homepage">
+                            <span class="tr-text-xs tr-text-bold tr-uppercase">homepage:&nbsp;</span>
+                            <a class="tr-faculty-homepage-link tr-lowercase" href="{{faculty.homepage}}" target="_blank">{{faculty.homepage}}</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

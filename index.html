@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="en" ng-app="tercero" ng-csp="no-unsafe-eval">
+
+    <head>
+        <meta charset="UTF-8">
+
+        <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://code.jquery.com/jquery-3.3.1.min.js https://code.angularjs.org/1.7.8/ https://ajax.googleapis.com/ajax/libs/angular_material/1.1.14/angular-material.js https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js; style-src 'self' 'unsafe-inline' https://ajax.googleapis.com/ajax/libs/angular_material/1.1.14/angular-material.min.css https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic https://fonts.googleapis.com/css?family=Julius+Sans+One https://fonts.googleapis.com/css?family=Scheherazade https://fonts.googleapis.com/css?family=Amatic+SC https://fonts.googleapis.com/css?family=Abel https://fonts.googleapis.com/icon?family=Material+Icons https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css; font-src 'self' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg https://fonts.gstatic.com/s/juliussansone/ https://fonts.gstatic.com/s/scheherazade/ https://fonts.gstatic.com/s/amaticsc/ https://fonts.gstatic.com/s/abel/ https://fonts.gstatic.com/s/roboto/ https://fonts.gstatic.com/s/materialicons/; connect-src 'self'; img-src 'self'">
+
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+        <meta name="theme-color" content="#8d99a5">
+
+        <title>Dept. of Computer Science & Engineering | University of Kalyani</title>
+
+        <!-- provide noscript -->
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Scheherazade" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+        <script type="text/javascript" src="script/configuration/tercero.init.script.js"></script>
+        <script type="text/javascript" src="script/configuration/tercero.global.js"></script>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.7.8/angular.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.7.8/angular-route.min.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.7.8/angular-sanitize.min.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.7.8/angular-aria.min.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.7.8/angular-animate.min.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.7.8/angular-messages.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.14/angular-material.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.14/angular-material.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+        <script type="text/javascript" src="script/configuration/tercero.config.js"></script>
+
+        <script type="text/javascript" src="script/service/tercero.preference.service.js"></script>
+        <script type="text/javascript" src="script/service/tercero.configuration.service.js"></script>
+        <script type="text/javascript" src="script/service/tercero.database.service.js"></script>
+
+        <script type="text/javascript" src="script/controller/dashboard.controller.js"></script>
+        <script type="text/javascript" src="script/controller/home.controller.js"></script>
+        <script type="text/javascript" src="script/controller/course.controller.js"></script>
+        <script type="text/javascript" src="script/controller/faculty.controller.js"></script>
+        <script type="text/javascript" src="script/controller/student.controller.js"></script>
+        <script type="text/javascript" src="script/controller/staff.controller.js"></script>
+        <script type="text/javascript" src="script/controller/research.controller.js"></script>
+        <script type="text/javascript" src="script/controller/resource.controller.js"></script>
+        <script type="text/javascript" src="script/controller/achievement.controller.js"></script>
+        <script type="text/javascript" src="script/controller/galley.controller.js"></script>
+        <script type="text/javascript" src="script/controller/contact.controller.js"></script>
+
+        <link rel="stylesheet" href="style/tercero.theme.css">
+        <link rel="stylesheet" href="style/tercero.theme.overlay.css">
+
+        <script type="text/javascript" src="script/configuration/tercero.termination.script.js"></script>
+    </head>
+
+    <body ng-controller="dashboard_controller" layout="column" ng-cloak>
+        <md-sidenav layout="column" md-component-id="tr-sidenav-left" class="md-sidenav-left" md-whiteframe="1">
+            <md-toolbar layout="column" layout-align="center center" class="md-toolbar-tools tr-sidenav-header" flex="25" md-whiteframe="1">
+                <div layout="column" layout-align="center center" class="tr-sidenav-logo-container tr-radius-circle" md-whiteframe="2">
+                    <img src="/image/kulogo.gif" class="tr-sidenav-logo" md-whiteframe="1">
+                </div>
+            </md-toolbar>
+            <md-content layout="column" class="tr-sidenav-body" flex>
+                <div class="tr-padding-vertical-20"></div>
+                <div ng-repeat="option in sidenav track by $index" ng-click="global_function.direct_to_location(option.route, true)" layout="row" layout-align="center center" class="tr-uppercase tr-cursor-pointer tr-text-gt-sm tr-font-jso tr-padding-vertical-20" ng-class="sidenav_option_class" ng-mouseenter="sidenav_option_class = sidenav_option_focus_class" ng-mouseleave="sidenav_option_class = sidenav_option_nofocus_class">{{option.option_title}}</div>
+                <div layout="row" layout-align="end center" class="tr-padding-vertical-20">
+                    <md-button class="md-icon-button tr-padding-vertical-20" ng-click="sidenav_toggle()" aria-label="close side navigation panel">
+                        <md-tooltip md-direction="left">close</md-tooltip>
+                        <md-icon class="material-icons">chevron_left</md-icon>
+                    </md-button>
+                </div>
+            </md-content>
+        </md-sidenav>
+        <md-content flex>
+            <div ng-view></div>
+            <div layout="column" layout-align="center center" class="tr-section-footer" md-whiteframe="1">
+                <div layout="row" layout-align="center center" class="tr-padding-vertical-20" layout-wrap>
+                    <span ng-repeat="option in sidenav track by $index" ng-click="global_function.direct_to_location(option.route)" class="tr-non-selectable tr-no-focus tr-color-hue-1 tr-padding-sides-15 tr-text-sm tr-font-abl tr-cursor-pointer">{{option.option_title}}</span>
+                </div>
+                <div layout="row" layout-align="center center" class="tr-padding-vertical-20" layout-wrap>
+                    <span class="tr-non-selectable tr-no-focus tr-color-hue-3 tr-padding-sides-15 tr-text-sm tr-cursor-pointer">Terms of Use</span>
+                    <span class="tr-non-selectable tr-no-focus tr-color-hue-3 tr-padding-sides-15 tr-text-sm tr-cursor-pointer">Privacy</span>
+                    <span class="tr-non-selectable tr-no-focus tr-color-hue-3 tr-padding-sides-15 tr-text-sm tr-cursor-pointer">Copyright</span>
+                    <span class="tr-non-selectable tr-no-focus tr-color-hue-3 tr-padding-sides-15 tr-text-sm tr-cursor-pointer">Trademarks</span>
+                </div>
+                <div layout="row" layout-align="center center" class="tr-padding-vertical-20" layout-wrap>
+                    <span class="tr-non-selectable tr-no-focus tr-color-hue-1 tr-padding-sides-15 tr-text-sm tr-font-abl">&copy; {{year}} Dept. of Computer Sc. &amp; Engg., University of Kalyani. All Rights Reserved.</span>
+                </div>
+                <div layout="row" layout-align="center center" class="tr-padding-vertical-20" layout-wrap>
+                    <span class="tr-non-selectable tr-no-focus tr-color-hue-1 tr-padding-sides-15 tr-text-xs tr-font-abl tr-cursor-pointer">
+                        Made with <span class="tr-color-hue-4">&hearts;</span> by Debabrata Acharya.
+                    </span>
+                </div>
+                <div layout="row" layout-align="center center" class="tr-padding-vertical-10" layout-wrap>
+                    <span class="tr-non-selectable tr-no-focus tr-color-hue-1 tr-padding-sides-15 tr-text-xs tr-font-abl tr-cursor-pointer">{{attribution}}</span>
+                </div>
+            </div>
+        </md-content>
+        <div layout="column" layout-align="center center" class="tr-menu-floating-button" md-whiteframe="10">
+            <md-button class="md-icon-button" aria-label="menu" ng-click="sidenav_toggle()">
+                <md-tooltip md-direction="right">menu</md-tooltip>
+                <md-icon class="material-icons tr-floating-menu-icon">list</md-icon>
+            </md-button>
+        </div>
+    </body>
+
+</html>
+
+<!-- crt - https://unsplash.com/@fedechanw -->

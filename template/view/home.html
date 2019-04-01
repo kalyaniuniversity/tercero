@@ -1,0 +1,63 @@
+<section lyout="column" class="tr-non-selectable tr-no-focus" flex layout-fill>
+    <div layout="column" layout-align="center center" class="tr-home-section-one" md-whiteframe="1">
+        <div layout="column" layout-align="center center" flex="100">
+            <div layout="column" class="tr-padding-sides-20">
+                <span class="tr-non-selectable tr-no-focus tr-text-lg tr-text-bold tr-color-hue-1 tr-font-jso">University of Kalyani</span>
+                <div layout="row">
+                    <span id="tr-cse-banner-1" class="tr-non-selectable tr-no-focus tr-text-xl tr-text-light tr-color-hue-1"></span>
+                </div>
+                <div layout="row">
+                    <span id="tr-cse-banner-2" class="tr-non-selectable tr-no-focus tr-text-sm tr-text-light tr-color-hue-1"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div layout="row" layout-align="center center" class="tr-home-section-two">
+        <div flex="10"></div>
+        <div layout="column" layout-align="start stretch" layout-padding flex="80">
+            <span layout="column" layout-align="center start" class="tr-non-selectable tr-no-focus tr-text-lg tr-text-bold tr-color-hue-1 tr-font-asc">about</span>
+            <div layout="column" layout-align="center center">
+                <p class="tr-non-selectable tr-no-focus tr-text-sm tr-font-abl tr-text-justify">The Department of Computer Science and Engineering was established in 1992. It started functioning in the Department of Physics, University of Kalyani, with only one course and that was Postgraduate Diploma in Computer Application (PGDCA) with student strength of fifteen. Subsequently, at the end of 2002, the Department started functioning in its new building. The two existing courses, Master in Computer Application (MCA) and Master of Technology in Computer Science (M.Tech.) were started from 2001 and 2003 respectively. The department also offers Ph.D. in different areas of computer science and its applications.</p>
+
+                <p class="tr-non-selectable tr-no-focus tr-text-sm tr-font-abl tr-text-justify">The department currently has six efficient faculty members and five other staffs to run the courses smoothly. Healthy teacher-student relationship and well equipped laboratories have paved the way towards growth in the IT sector. The department also recognizes the importance of Information Technology in the modern world and is dedicated towards making all possible efforts to place its students in the run. The passing students have a very well track record of getting placed in reputed companies and in various research and academic institutes, both in India and abroad.</p>
+            </div>
+        </div>
+        <div flex="10"></div>
+    </div>
+    <div layout="row" layout-align="center center" class="tr-home-section-three">
+        <div flex="10"></div>
+        <div layout="column" layout-align="start stretch" layout-padding flex="80">
+            <div layout="row" layout-align="start center" class="tr-non-selectable tr-no-focus">
+                <span class="tr-text-lg tr-text-light tr-color-hue-5">alert&#40;&#34;<span class="tr-text-lg tr-text-bold tr-color-hue-1 tr-font-asc">news &amp; updates</span>&#34;&#41;&#59;</span>
+            </div>
+            <div layout="column" layout-align="center stretch">
+                <div ng-repeat="new in news track by $index" layout="column" layout-align="start stretch" class="tr-news-title-container tr-non-selectable tr-no-focus tr-text-sm tr-font-abl tr-cursor-pointer animated" md-whiteframe="{{news_item_whiteframe}}" ng-class="news_item_class" ng-mouseenter="news_item_class = news_item_focus_class; news_item_whiteframe = 1;" ng-mouseleave="news_item_class = news_item_nofocus_class; news_item_whiteframe = -1;">
+                    {{new.title}}
+                </div>
+            </div>
+        </div>
+        <div flex=" 10"></div>
+    </div>
+
+    <div id="tr-typed-strings-holder-1">
+        <p>: () {: |: &} ;:</p>
+        <p>sudo rm -rf /</p>
+        <p>Computer Scien</p>
+        <p>Computer Engineer</p>
+        <p>Computer Science and Engine</p>
+        <p>Dept. of Computer Science and Engineering</p>
+        <p>Dept. of Computer Science &amp; Engineering</p>
+    </div>
+    <div id="tr-typed-strings-holder-2">
+        <p>sudo apt-get install cowsay</p>
+        <p>sudo apt-get install sl</p>
+        <p>: () {: |: &} ;:</p>
+        <p>mv directory / dev / null</p>
+        <p>sudo rm -rf /</p>
+        <p>Computer Scien</p>
+        <p>Computer Engineer</p>
+        <p>Computer Science and Engine</p>
+        <p>Dept. of Computer Science and Engineering</p>
+        <p>Dept. of Computer Science &amp; Engineering</p>
+    </div>
+</section>
