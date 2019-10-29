@@ -85,13 +85,13 @@ tercero.run(['$rootScope', 'ngProgressFactory', function ($rootScope, ngProgress
     });
 }]);
 
-// tercero.config(['$locationProvider', function ($locationProvider) {
+tercero.config(['$locationProvider', function ($locationProvider) {
 
-//     if (window.history && window.history.pushState) {
-//         $locationProvider.html5Mode({
-//             enabled: true,
-//             requireBase: false
-//         });
-//     }
+    if (window.history && window.history.pushState) {
+        $locationProvider.html5Mode({
+            enabled: true,
+            requireBase: false
+        });
+    }
 
-// }]);
+}]);

@@ -1,11 +1,10 @@
 const API_PRE_CONFIG = {
 
-    base_address: "http://localhost",
-    base_port: ":8093",
+    base_address: "https://gallant-easley-940cda.netlify.com",
+    base_port: "",
 };
 
 const API_CONFIG = {
-
     base_url: API_PRE_CONFIG.base_address + API_PRE_CONFIG.base_port
 };
 
