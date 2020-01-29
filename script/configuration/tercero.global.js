@@ -5,7 +5,6 @@ const API_PRE_CONFIG = {
 };
 
 const API_CONFIG = {
-
     base_url: API_PRE_CONFIG.base_address + API_PRE_CONFIG.base_port
 };
 
@@ -49,7 +48,7 @@ const GLOBAL_API = {
 const GLOBAL_CONST = {
 
     version: {
-        tercero: "0.1"
+        tercero: "0.2"
     },
 
     controller: {
