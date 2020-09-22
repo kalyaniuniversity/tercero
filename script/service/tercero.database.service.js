@@ -1,6 +1,6 @@
 tercero.service('databaseservice', ['preferenceservice', function (preferenceservice) {
 
-    const preference = preferenceservice.paperdesk_local_storage_handler;
+    const preference = preferenceservice.tercero_local_storage_handler;
 
     const sidenav_options = [{
         option_title: 'home',

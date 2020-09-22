@@ -1,6 +1,6 @@
 const API_PRE_CONFIG = {
 
-    base_address: "https://gallant-easley-940cda.netlify.com",
+    base_address: "https://gallant-easley-940cda.netlify.app",
     base_port: "",
 };
 

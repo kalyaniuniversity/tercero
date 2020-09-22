@@ -1,6 +1,6 @@
 tercero.service('configurationservice', ['preferenceservice', '$location', '$mdSidenav', '$mdToast', function (preferenceservice, $location, $mdSidenav, $mdToast) {
 
-    const preference = preferenceservice.paperdesk_local_storage_handler;
+    const preference = preferenceservice.tercero_local_storage_handler;
 
     return ({
 
